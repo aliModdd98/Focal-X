@@ -86,7 +86,7 @@ const getColor = (index) => {
    
       {
       arr.map((e)=>(
-       <ServicesCard color={getColor(e.id)} radius={getRadius(e.id)} boxShadow={getBoxShadow(e.id)} title={e.title} desc={e.desc} subTitle={e.subTitle} list={e.list} phrase={e.phrase} img={e.img} logo={e.logo} mainImg={e.mainImg} id={e.id}/>
+       <ServicesCard key={e.id} color={getColor(e.id)} radius={getRadius(e.id)} boxShadow={getBoxShadow(e.id)} title={e.title} desc={e.desc} subTitle={e.subTitle} list={e.list} phrase={e.phrase} img={e.img} logo={e.logo} mainImg={e.mainImg} id={e.id}/>
       ))
      }
    

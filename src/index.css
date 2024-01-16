@@ -1,3 +1,4 @@
+
 :root {
    font-synthesis: none;
   font-family: 'Montserrat', sans-serif;
@@ -12,3 +13,7 @@ body {
   min-height: 100vh;
   overflow-x: hidden;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

@@ -11,7 +11,7 @@ export const ServicesCard = ({id,radius,color,mainImg,position,boxShadow,title,d
    <p className='description' >{desc} </p>
    <h4 className='sub'>{subTitle}</h4>
    <ul>
-    {list.map((e)=>(<li className='Alist'>{e}</li>))}
+    {list.map((e, index)=>(<li key={index} className='Alist'>{e}</li>))}
    </ul>
    <h4  className='phrase'>{phrase}</h4>
    </div>

@@ -1,0 +1,87 @@
+/* general hero */
+.of-header {
+    min-height: calc(100vh - 11.375rem);
+
+}
+
+/* left part */
+.of-left-hero h1 {
+    color: #FF8500;
+    font-family: var(--my-font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.875rem;
+    line-height: normal;
+}
+
+.of-left-hero p {
+    color: #282828;
+    font-family: var(--my-font-family);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+/* right part */
+
+/* under part */
+.of-header-social-media .of-img1 {
+    width: 100vw;
+}
+
+.of-header-social-media .of-header-social-media-p {
+    color: #FF8500;
+    font-family: var(--my-font-family);
+    font-size: 1.67919rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 83.2%;
+}
+
+.of-p-discourd {
+    position: absolute;
+    left: 50%;
+    top: 69.71%;
+    transform: translate(-50%, -50%);
+}
+
+.of-p-discourd p {
+    color: var(--color-white);
+    font-family: var(--my-font-family);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 83.2%;
+    /* 0.832rem */
+}
+
+.of-copyrightfocalx .of-copyright {
+    color: var(--color-white);
+    font-family:var(--my-font-family);
+    
+    font-style: normal;
+    font-weight: 500;
+    line-height: 83.2%;
+    /* 13.312px */
+}
+
+/* font size */
+@media screen and (min-width:1600px) and (max-width : 1800px) {
+    .of-left-hero h1 {
+        font-size: 2.2rem;
+    }
+
+    .of-left-hero p {
+        font-size: 1.7rem;
+    }
+}
+
+@media screen and (min-width: 1801px) {
+    .of-left-hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .of-left-hero p {
+        font-size: 1.9rem;
+    }
+
+}

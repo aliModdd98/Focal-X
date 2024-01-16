@@ -1,1 +1,16 @@
 
+/****** General Variables ******/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,500;0,700;0,900;1,600&display=swap');
+@import "bootstrap-icons/font/bootstrap-icons.css";
+:root {
+    /* color general */
+    --color-white: #FFF;
+    --color-black: #282828;
+    --color-secondry: #938C8C;
+
+    
+    /* font general */
+    --my-font-family: 'Montserrat', sans-serif;
+    --font: normal;
+   
+}
