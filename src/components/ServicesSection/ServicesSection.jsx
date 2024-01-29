@@ -12,6 +12,7 @@ import v1 from "./../../assets/v2.png"
 import v3 from "./../../assets/v4.png"
 import v2 from "./../../assets/v1.png"
 import v4 from "./../../assets/v3.png"
+import VisualServices from './VisualServices'
 export const ServicesSection = () => {
  
   const arr=[{
@@ -89,7 +90,9 @@ const getColor = (index) => {
        <ServicesCard key={e.id} color={getColor(e.id)} radius={getRadius(e.id)} boxShadow={getBoxShadow(e.id)} title={e.title} desc={e.desc} subTitle={e.subTitle} list={e.list} phrase={e.phrase} img={e.img} logo={e.logo} mainImg={e.mainImg} id={e.id}/>
       ))
      }
-   
-   </section></>
+ 
+   </section>
+   <VisualServices/>
+   </>
   )
 }

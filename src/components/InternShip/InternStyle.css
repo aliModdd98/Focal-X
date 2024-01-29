@@ -1,0 +1,38 @@
+.intern{
+    text-align: left;
+    width: 100%;
+    margin: 0 auto;
+    }
+    .internTextS{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .internH{
+        font-size: 30px;
+        font-weight: 700;
+        line-height:36.57px;
+    }
+    
+.internH{
+   font-size:30px; 
+   line-height: 36.57px;
+   color:#282828 ;
+   margin-top: 7%;
+   display: flex;
+   justify-content: center;
+}
+.InternPA{
+    font-size: 24px;
+    line-height: 31.2px;
+    margin-top: 5%;
+   
+}
+.internW{
+    font-weight: 500;
+}
+
+.typIn{
+    font-size: 24px;
+    line-height: 31.2px;
+    display: block;   
+}

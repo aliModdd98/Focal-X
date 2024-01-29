@@ -9,11 +9,11 @@ export const ServicesCard = ({id,radius,color,mainImg,position,boxShadow,title,d
    <div className="Service">
    <h2 className='titleCard' style={{ '--lineColor': color }}>{title}</h2>
    <p className='description' >{desc} </p>
-   <h4 className='sub'>{subTitle}</h4>
+   <h2 className='sub'>{subTitle}</h2>
    <ul>
     {list.map((e, index)=>(<li key={index} className='Alist'>{e}</li>))}
    </ul>
-   <h4  className='phrase'>{phrase}</h4>
+   <h2  className='phrase'>{phrase}</h2>
    </div>
    <div className={`Xicon ${id % 2 === 0 ? 'leftX' : 'rightX'}`}>
     <img src={img} alt="X"  className='Ximg' style={position}/>
